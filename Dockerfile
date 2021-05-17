@@ -1,2 +1,2 @@
-FROM harbor.geely.com/ocp4/public/nginx:latest
+FROM docker.io/nginx:latest
 RUN echo "hello world" > /tmp/fff.txt
