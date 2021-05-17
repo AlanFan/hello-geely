@@ -13,7 +13,7 @@ spec:
         app: hello-openshift
     spec:
       containers:
-        - name: hello-openshift
-          image: image-registry.openshift-image-registry.svc:5000/pipelines-tutorial/hello-geely:latest
+        - name: example
+          image: docker.io/alanfan/hello-geely:latest
           ports:
             - containerPort: 8080
